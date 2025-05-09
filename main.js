@@ -17,3 +17,19 @@ menuBtn.addEventListener("click", (e) => {
 navlinks.addEventListener("click", (e) =>{
     navlinks.classList.remove("open");
 })
+
+//SCROLL
+
+const scrollRevealOpition = {
+    distance: "50px",
+    origin:"bottom",
+    duration: 1000,
+}
+
+scrollReveal().reveal(".header__content h1",{
+    ...scrollRevealOpition,
+})
+scrollReveal().reveal("header form ",{
+    ...scrollRevealOpition,
+    delay:500,
+})
