@@ -33,3 +33,7 @@ scrollReveal().reveal("header form ",{
     ...scrollRevealOpition,
     delay:500,
 })
+scrollReveal().reveal(".servico__card",{
+    ...scrollRevealOpition,
+    interval:500,
+})

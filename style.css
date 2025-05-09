@@ -279,6 +279,11 @@ header.btn{
     header form {
         flex-direction: row;
     }
+    
+    .servico__grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
 }
 
 @media( width > 768px){
@@ -335,4 +340,16 @@ header.btn{
      .header__content h1{
         text-align: left;
      }
+    .servico__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(width > 1024px){
+    .servico__grid{
+        gap: 2rem;
+    }
+    .servico__card{
+        padding: 2rem;
+    }
 }
