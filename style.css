@@ -43,7 +43,7 @@
     position: absolute;
     content: "";
     height: 5px;
-    width: 6rem;
+    width: .5rem;
     bottom: 0;
     left: calc(50% + 3rem);
     transform: translateX(-50%);
@@ -204,6 +204,69 @@ header input{
 header.btn{
     padding: 0.75rem;
     font-size: 1rem;
+}
+                  /*SERVIÇO*/
+.servico{
+    overflow: hidden;
+}
+.servico__grid{
+    margin-top: 4rem;
+    position: relative;
+    isolation: isolate;
+    display: grid;
+    gap:2rem 1rem;
+}
+.servico__grid::before{
+    position: absolute;
+    content: "";
+    height: calc(50% + 5rem);
+    width: 100vw;
+    bottom: -5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--cor-primaria);
+    z-index: -1;
+}
+.servico__card{
+    position: relative;
+    isolation: isolate;
+    padding: 2rem 1rem;
+    background-color: var(--white);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, .1);
+    overflow: hidden;
+}
+.servico__card::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    max-width: 10rem;
+    aspect-ratio: 1;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--cor-primaria);
+    border-radius: 100%;
+    z-index: -1;
+}
+.servico__card img {
+    max-width: 70px;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+}
+
+.servico__card h4 {
+    margin-bottom: .5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    text-align: center;
+}
+
+.servico__card p {
+    font-weight: 500;
+    color: var(--text-light);
+    text-align: center;
+    list-style: 1.75rem;
 }
 
 @media( width > 540px){
