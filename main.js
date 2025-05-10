@@ -55,3 +55,11 @@ scrollReveal().reveal(".experencia__stats ",{
     ...scrollRevealOpition,
     delay:1500,
 })
+
+/**SWIPER */
+
+const swiper = new Swiper('.swiper', {
+    slidesPerView: 2,
+    spaceBetween:20,
+    loop:true,
+})

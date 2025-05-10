@@ -328,6 +328,73 @@ header.btn{
     color:  var(--text-light);
 }
 
+                /* Propriedade */
+
+.swiper{
+    padding-block:4rem;
+    width: 100%;
+    max-width: 900px;
+}
+.swiper-slide{
+    min-width: 350px;
+}
+
+.propreidade__card{
+    box-shadow: 0px 5px 50px var(--cor-primaria);
+}
+.detalhes__propreidade{
+    padding: 1rem;
+}
+.detalhes__propreidade__header{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.detalhes__propreidade__header h4{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.detalhes__propreidade__header h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.propredade__amenities{
+   margin-bottom: 1rem;
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+}
+
+.propredade__amenities > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    color: var(--text-light);
+}
+.propredade__amenities span{
+    font-size: 1.2rem;
+    color: var(--text-dark);
+}
+.localizacao__propriedade{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-light);
+}
+
+
+
+
 
 
 @media( width > 540px){
@@ -356,6 +423,9 @@ header.btn{
     .experencia__stats{
         flex-direction: row;
         text-align: left;
+    }
+    .detalhes__propreidade{
+        padding: 1.5rem;
     }
     
 }
