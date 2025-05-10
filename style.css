@@ -328,6 +328,8 @@ header.btn{
     color:  var(--text-light);
 }
 
+
+
 @media( width > 540px){
     .header__imagem{
         min-height: 20rem;
