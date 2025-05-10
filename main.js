@@ -37,3 +37,21 @@ scrollReveal().reveal(".servico__card",{
     ...scrollRevealOpition,
     interval:500,
 })
+
+scrollReveal().reveal(".experencia__content .section__header",{
+    ...scrollRevealOpition,
+})
+scrollReveal().reveal(".experencia__content p ",{
+    ...scrollRevealOpition,
+    delay:500,
+})
+
+scrollReveal().reveal(".experencia__btn",{
+    ...scrollRevealOpition,
+    delay:1000,
+})
+
+scrollReveal().reveal(".experencia__stats ",{
+    ...scrollRevealOpition,
+    delay:1500,
+})
