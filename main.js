@@ -63,3 +63,11 @@ const swiper = new Swiper('.swiper', {
     spaceBetween:20,
     loop:true,
 })
+
+scrollReveal().reveal(".subriscreve .section__header",{
+    ...scrollRevealOpition,
+})
+scrollReveal().reveal(".subriscreve form",{
+    ...scrollRevealOpition,
+    delay:500,
+})
