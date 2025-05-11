@@ -422,6 +422,89 @@ header.btn{
 .subriscreve .btn{
     padding: 1.5rem 2rem;
 }
+                                            /*FOOTER*/
+
+.footer__conteiner{
+    display: grid;
+    gap:4rem 2rem;
+}
+
+.footer__logo a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.footer__col p{
+    margin-block: 1rem 2rem;
+    max-width: 350px;
+    font-weight: 500;
+    line-height: 1.75rem;
+    color: var(--text-dark);
+}
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+}
+.footer__socials a{
+    padding: 5px 7px;
+    font-size: 1rem;
+    color: var(--text-dark);
+    background-color: var(--cor-primaria);
+    border-radius: 100%;
+}
+
+.footer__col h4{
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+
+.footer__links {
+    display: grid;
+    gap: 1rem;
+}
+
+.footer__links a{
+    color: var(--text-dark);
+    font-weight: 500;
+}
+.footer__links a:hover{
+    color: var(--text-light);
+}
+
+.footer__pripriedade__detathes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer__pripriedade__detathes img{
+    max-width: 50px;
+
+}
+.footer__pripriedade__detathes h5{
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    color: var(--text-dark);
+
+}
+.footer__pripriedade__detathes p{
+    margin: 0;
+    line-height: 1.25rem;
+}
+
+.footer__bar{
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    color: var(--text-dark);
+    background-color: var(--cor-primaria);
+    text-align: center;
+    
+}
+
 
 
 @media( width > 540px){
@@ -454,7 +537,9 @@ header.btn{
     .detalhes__propreidade{
         padding: 1.5rem;
     }
-    
+    .footer__conteiner{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media( width > 768px){
@@ -535,7 +620,10 @@ header.btn{
     .experencia__content .section__header, p, .experencia__btn{
         text-align: right;
     }
-
+        .footer__conteiner {
+            grid-template-columns: repeat(3, 1fr);
+            gap:.1rem 4rem;
+        }
 }
 
 @media(width > 1024px){
@@ -545,5 +633,11 @@ header.btn{
     .servico__card{
         padding: 2rem;
     }
-
+    .footer__conteiner {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    .footer__col:nth-child(1) {
+       grid-column: 1/3;
+    }
 }
