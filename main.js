@@ -26,32 +26,33 @@ const scrollRevealOpition = {
     duration: 1000,
 }
 
-scrollReveal().reveal(".header__content h1",{
+ ScrollReveal().reveal(".header__content h1",{
     ...scrollRevealOpition,
 })
-scrollReveal().reveal("header form ",{
+ ScrollReveal().reveal("header form ",{
     ...scrollRevealOpition,
+    
     delay:500,
 })
-scrollReveal().reveal(".servico__card",{
+ScrollReveal().reveal(".servico__card",{
     ...scrollRevealOpition,
     interval:500,
 })
 
-scrollReveal().reveal(".experencia__content .section__header",{
+ScrollReveal().reveal(".experencia__content .section__header",{
     ...scrollRevealOpition,
 })
-scrollReveal().reveal(".experencia__content p ",{
+ScrollReveal().reveal(".experencia__content p ",{
     ...scrollRevealOpition,
     delay:500,
 })
 
-scrollReveal().reveal(".experencia__btn",{
+ScrollReveal().reveal(".experencia__btn",{
     ...scrollRevealOpition,
     delay:1000,
 })
 
-scrollReveal().reveal(".experencia__stats ",{
+ScrollReveal().reveal(".experencia__stats ",{
     ...scrollRevealOpition,
     delay:1500,
 })
