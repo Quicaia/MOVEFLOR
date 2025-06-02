@@ -141,6 +141,8 @@ nav{
     color: var(--text-dark);
     white-space: nowrap;
 }
+
+
 header{
     padding-block:5rem 4rem;
     display: grid;
@@ -507,7 +509,7 @@ header.btn{
 
 
 
-@media( width > 540px){
+@media ( width > 540px){
     .header__imagem{
         min-height: 20rem;
     }
