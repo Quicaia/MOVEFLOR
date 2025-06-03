@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 :root{
     --cor-primaria:#e0ebed;
     --text-dark: #231e22;
@@ -79,7 +80,7 @@ body{
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lato", sans-serif;
 }
 nav{
     position: fixed;
@@ -333,7 +334,7 @@ header.btn{
                 /* Propriedade */
 
 .swiper{
-    padding-block:4rem;
+    padding-block: 4rem;
     width: 100%;
     max-width: 900px;
 }
@@ -367,7 +368,7 @@ header.btn{
     color: var(--text-dark);
 }
 
-.propredade__amenities{
+.propredade__amenities {
    margin-bottom: 1rem;
    display: flex;
    align-items: center;
@@ -379,6 +380,7 @@ header.btn{
     align-items: center;
     gap: 10px;
     font-size: 1rem;
+    font-weight: 600;
     color: var(--text-light);
 }
 .propredade__amenities span{

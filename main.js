@@ -59,7 +59,7 @@ ScrollReveal().reveal(".experencia__stats ",{
 
 /**SWIPER */
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper(".swiper", {
     slidesPerView: 2,
     spaceBetween:20,
     loop:true,
