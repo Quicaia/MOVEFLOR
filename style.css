@@ -98,7 +98,7 @@ nav{
 }
 .nav__logo a{
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 800;
     color: var(--text-dark);
 }
 .nav__menu__btn{
@@ -138,7 +138,7 @@ nav{
 }
 
 .nav__links a {
-    font-weight: 500;
+    font-weight: 600;
     color: var(--text-dark);
     white-space: nowrap;
 }
@@ -444,6 +444,7 @@ header.btn{
 }
 
 .footer__col p{
+    text-align: justify;
     margin-block: 1rem 2rem;
     max-width: 350px;
     font-weight: 500;
