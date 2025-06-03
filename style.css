@@ -152,7 +152,7 @@ header{
 }
 .header__imagem{
     height: 100%;
-    background-image: url(assets/header.png);
+    background-image: url(assets/home-1.jpg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -281,7 +281,7 @@ header.btn{
 }
 .experencia__imagem{
     height: 100%;
-    background-image: url(assets/experience.png);
+    background-image: url(assets/expere.jpeg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -334,14 +334,17 @@ header.btn{
                 /* Propriedade */
 
 .swiper{
+    margin-top: 2rem;
     padding-block: 4rem;
     width: 100%;
     max-width: 900px;
 }
+.swiper-wrapper{
+    gap: 2rem;
+}
 .swiper-slide{
     min-width: 350px;
 }
-
 .propreidade__card{
     box-shadow: 0px 5px 50px var(--cor-primaria);
 }
@@ -354,6 +357,7 @@ header.btn{
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+    padding-inline: .1rem;
     flex-wrap: wrap;
 }
 .detalhes__propreidade__header h4{
@@ -612,7 +616,7 @@ header.btn{
     .experencia__imagem{
         grid-column: 1/2;
         min-height: 30rem;
-        border-top-right-radius: 100%;
+        border-top-right-radius: 80%;
     }
     .experencia__content{
         grid-column: 2/4;
